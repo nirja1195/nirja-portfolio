@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>College Fest 2026</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow fixed w-full z-10">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-600">College Fest 2026</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#schedule" class="hover:text-blue-600">Schedule</a></li>
+        <li><a href="#highlights" class="hover:text-blue-600">Highlights</a></li>
+        <li><a href="#register" class="hover:text-blue-600">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-pink-500 to-purple-600 text-white pt-20">
+    <div class="text-center px-4">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Welcome to College Fest 2026 🎉</h2>
+      <p class="text-xl mb-6">The biggest cultural and technical event of the year!</p>
+      <a href="#register" class="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-200">Register Now</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">About the Event</h2>
+      <p class="text-center text-gray-600 max-w-3xl mx-auto">
+        College Fest 2026 is a grand celebration featuring technical competitions, cultural performances, workshops, and fun activities. Join us for two days of learning, networking, and entertainment.
+      </p>
+    </div>
+  </section>
+
+  <!-- Schedule Section -->
+  <section id="schedule" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Event Schedule</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-4">Day 1 - Technical Events</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>🕘 9:00 AM - Inauguration Ceremony</li>
+            <li>🕙 10:00 AM - Coding Hackathon</li>
+            <li>🕐 1:00 PM - Workshop on AI & ML</li>
+            <li>🕓 4:00 PM - Quiz Competition</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-4">Day 2 - Cultural Events</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>🕘 9:00 AM - Dance Competition</li>
+            <li>🕙 11:00 AM - Singing Competition</li>
+            <li>🕑 2:00 PM - Fashion Show</li>
+            <li>🕕 6:00 PM - Celebrity Night & DJ Party</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights Section -->
+  <section id="highlights" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Event Highlights</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-lg shadow text-center">
+          <h3 class="text-xl font-semibold mb-2">Exciting Competitions</h3>
+          <p class="text-gray-600">Participate in coding, quiz, dance, singing, and more.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow text-center">
+          <h3 class="text-xl font-semibold mb-2">Workshops & Talks</h3>
+          <p class="text-gray-600">Learn from industry experts and improve your skills.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow text-center">
+          <h3 class="text-xl font-semibold mb-2">Celebrity Night</h3>
+          <p class="text-gray-600">Enjoy live performances and a DJ night to end the fest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section id="register" class="py-16 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Register Now</h2>
+      <form class="bg-white p-8 rounded-lg shadow max-w-xl mx-auto">
+        <div class="mb-4">
+          <label class="block mb-2 font-semibold">Full Name</label>
+          <input type="text" class="w-full p-2 border rounded" placeholder="Your Name" required />
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-semibold">Email</label>
+          <input type="email" class="w-full p-2 border rounded" placeholder="Your Email" required />
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-semibold">College Name</label>
+          <input type="text" class="w-full p-2 border rounded" placeholder="Your College" required />
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-semibold">Select Events</label>
+          <select class="w-full p-2 border rounded">
+            <option>Coding Hackathon</option>
+            <option>Quiz Competition</option>
+            <option>Dance Competition</option>
+            <option>Singing Competition</option>
+            <option>Fashion Show</option>
+          </select>
+        </div>
+        <button type="submit" class="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700">Submit Registration</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2026 College Fest. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
